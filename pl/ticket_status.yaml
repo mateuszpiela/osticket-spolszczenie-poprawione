@@ -2,7 +2,7 @@
 - 
   id: 1
   name: Otwarte
-  state: otwarte
+  state: open
   mode: 3
   sort: 1
   flags: 0
@@ -11,7 +11,7 @@
 - 
   id: 2
   name: Rozwiązane
-  state: zamknięte
+  state: closed
   mode: 1
   sort: 2
   flags: 0
@@ -23,7 +23,7 @@
 - 
   id: 3
   name: Zamknięte
-  state: zamknięte
+  state: closed
   mode: 3
   sort: 3
   flags: 0
@@ -35,7 +35,7 @@
 - 
   id: 4
   name: Zarchiwizowane
-  state: zarchiwizowane
+  state: archived
   mode: 3
   sort: 4
   flags: 0
@@ -45,7 +45,7 @@
 - 
   id: 5
   name: Usunięte
-  state: usunięte
+  state: deleted
   mode: 3
   sort: 5
   flags: 0
