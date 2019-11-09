@@ -5,4 +5,4 @@ Błędy usunięte zostały w plikach:</br>
 -form.yaml
 </br>
 </br>
-Zainstalowane w wsparcie.overteam.eu</br>
+Zainstalowane na wsparcie.overteam.eu</br>
