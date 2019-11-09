@@ -1,8 +1,8 @@
 # Poprawione spolszczenie osticket
-Błędy usunięte zostały w plikach:
-
-filter.yaml
-form.yaml
-
-
-Zainstalowane w wsparcie.overteam.eu
+Błędy usunięte zostały w plikach:</br>
+</br>
+-filter.yaml</br>
+-form.yaml
+</br>
+</br>
+Zainstalowane w wsparcie.overteam.eu</br>
