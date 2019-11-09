@@ -1,0 +1,88 @@
+---
+helpdesk_status:
+  title: Stan Biura Obsługi Klienta
+  content: >
+    If the status is changed to <span class="doc-desc-opt">Offline</span>, the client interface will be disabled.  Only Admins will be able to access the system.
+helpdesk_url:
+  title: URL Biura Obsługi Klienta
+  content: >
+    Jest to domyślny adres URL Twojej instalacji osTicket. Jest używany do komunikacji za pośrednictwem poczty elektronicznej pomiędzy końcowymi użytkownikami i helpdeskiem.
+helpdesk_name_title:
+  title: 'Biuro Obsługi Klienta: nazwa/tytuł'
+  content: >
+    Jest to tytuł, który pojawi się w karcie przeglądarki. Jeśli strona systemu pomocy zostanie dodana do ulubionych, będzie to jej tytuł / nazwa strony.
+default_department:
+  title: Domyślny departament
+  content: >
+    Wybierz domyślny <span class="doc-desc-title">Departament</span> dla zgłoszeń, które nie są automatycznie kierowane do Departamentu. <br/><br/> Zgłoszenia mogą być kierowane w oparciu o temat pomocy, e-mail nadawcy lub ustawienia filtra zgłoszeń.
+default_page_size:
+  title: Domyślny rozmiar strony
+  content: >
+    Wybierz liczbę pozycji wyświetlanych na pojedynczej stronie w kolejce zgłoszeń w Panelu pracownika. Każdy Przedstawiciel może sam ustawić tą wielkość dla swojego konta w <span class="doc-desc-title">Moje Preferencje</span>.
+default_log_level:
+  title: Domyślny poziom logowania
+  content: >
+    Określa minimalny poziom logowanie zdarzeń w <span class="doc-desc-title">logach systemowych</span>. <span class="doc-desc-opt">Debug</span> oznacza najmniejszy poziom, a <span class="doc-desc-opt">Error</span> największy. Na przykład, jeżeli chcesz zobaczyć wszystkie problemy w <span class="doc-desc-title">Logach Systemu</span>, wybierz <span class="doc-desc-opt">Debug</span>.
+purge_logs:
+  title: Wyczyść logi
+  content: >
+    Definiuje jak długo chcesz zachować <span class="doc-desc-title">Logi systemowe</span> zanim zostaną usunięte.
+enable_richtext:
+  title: Włącz wzbogacony tekst
+  content: >
+    Jeśli opcja jest włączona, to pozwala na korzystanie ze wzbogaconego formatowania tekstu między klientami i pełnomocnikami.
+enable_avatars:
+  title: Zezwól na awatary na podglądzie wątków
+  content: >
+    Włącz, aby pokazać <span class="doc-desc-title">Awatary</span> w wątku korespondencji.<br><br> <span class="doc-desc-title">Źródło awatara</span> jest zdefiniowane w ustawieniach Przedstawiciela i użytkownika.
+  links:
+    - 
+      title: Ustawienia przedstawicieli
+      href: /scp/settings.php?t=agents
+    - 
+      title: Ustawienia użytkowników
+      href: /scp/settings.php?t=users
+collision_avoidance:
+  title: Unikanie kolizji przedstawicieli
+  content: >
+    Wprowadź maksymalny czas przez jaki przedstawiciel może blokować zgłoszenie lub zadanie bez żadnej aktywności. <br><br> Wprowadź <span class="doc-desc-opt">0</span>, aby wyłączyć możliwość blokady.
+date_time_options:
+  title: Opcje daty i czasu
+  content: >
+    Następujące ustawienia definiują domyślne ustawienia daty i czasu dla systemu. Możesz zdecydować się na stosowanie domyślnych ustawień regionalnych dla wybranej lokalizacji lub dostosować format do swoich indywidualnych wymagań. Zapoznaj się z łańcuchem formatu ICU jako punktem odniesienia do personalizacji ustawień. Daty podane poniżej ilustrują wyniki z odpowiadającymi im wartościami.
+  links:
+    - 
+      title: Zobacz tabelę zawierającą znaki formatujące daty ICU
+      href: http://userguide.icu-project.org/formatparse/datetime
+languages:
+  title: Ustawienia językowe
+  content: >
+    Wybierz domyślny język systemu oraz opcjonalnie drugi język tak by twoi przedstawiciele i końcowi użytkownicy mieli poczucie pełnej lokalizacji interfejsu.
+primary_language:
+  title: Podstawowy język systemu
+  content: >
+    Zawartość tego języka jest wyświetlana przedstawicielom i użytkowników końcowym jeżeli odpowiedni preferowany język nie jest aktualnie dostępny. Obejmuje zawartość interfejsu, jak również zawartości takich jak strona podziękowania i wiadomości e-mail.<br/><br/> Jest to język, w którym nieprzetłumaczone treści powinny być zapisane.
+secondary_language:
+  title: Kolejne języki
+  content: >
+    Wybierz preferencje językowe dla swoich przedstawicieli i użytkowników końcowych. Interfejs będzie dostępny w wybranych językach, podobnie zawartość, jak strona podziękowania, nazwy tematów pomocy.
+attachments:
+  title: Ustawienia załączników i przechowywania
+  content: >
+    Ustaw jak przechowywane są załączniki.
+default_storage_bk:
+  title: Zaplecze przechowywania plików
+  content: >
+    Choose how attachments are stored. <br><br> Additional storage backends can be added by installing storage plugins
+max_file_size:
+  title: Maksymalny rozmiar pliku
+  content: >
+    Wybierz maksymalny rozmiar załączników wgrywanych przez Przedstawicieli. Obejmuje załączniki w gotowych odpowiedziach, artykuły bazy wiedzy oraz załączniki do zgłoszeń i odpowiedzi na zadania. Górny limit jest kontrolowany przez ustawienie w kodzie PHP <code>upload_max_filesize</code>.
+  links:
+    - 
+      title: Ustawienia pliku PHP.ini
+      href: "http://php.net/manual/en/ini.core.php#ini.upload-max-filesize"
+files_req_auth:
+  title: Require Login
+  content: >
+    Enable this setting to forbid serving attachments to unauthenticated users. That is, users must sign into the system (both end users and agents), in order to view attachments. <br><br> From a security perspective, be aware that the user's browser may retain previously-viewed files in its cache. Furthermore, all file links on your helpdesk automatically expire after about 24 hours.

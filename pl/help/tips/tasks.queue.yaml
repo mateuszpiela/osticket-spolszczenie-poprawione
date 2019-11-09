@@ -1,0 +1,9 @@
+---
+advanced:
+  title: Zaawansowany
+  content: >
+    Zawęź kryteria wyszukiwania. Po wybraniu zaawansowanych kryteriów i uruchomieniu wyszukiwania, można <span class="doc-desc-title">Wyeksportować</span> dane zgłoszeń na dole strony.
+export:
+  title: Eksport
+  content: >
+    Eksport danych aktualnie widocznych do pliki CSV. Pliki CSV można otworzyć za pomocą dowolnego arkusza kalkulacyjnego (np. Microsoft Excel, Apple Pages, OpenOffice itd.).

@@ -1,0 +1,193 @@
+---
+- 
+  id: 1
+  type: U
+  title: Informacje Kontaktowe
+  flags: 0
+  fields:
+    - 
+      type: text
+      name: email
+      label: Adres E-mail
+      sort: 1
+      flags: 0x777A3
+      configuration:
+        size: 40
+        length: 64
+        validator: email
+    - 
+      type: text
+      name: name
+      label: Imię i Nazwisko
+      sort: 2
+      flags: 0x777A3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone
+      name: phone
+      label: Numer Telefonu
+      sort: 3
+      flags: 0x3301
+    - 
+      type: memo
+      name: notes
+      label: Wewnętrzne Notatki
+      sort: 4
+      flags: 0x3001
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  id: 2
+  type: T #notrans
+  title: Szczegóły Zgłoszenia
+  instructions: Opisz Swój Problem
+  notes: |
+    Ten formularz zostanie dołączony do każdego zgłoszenia, niezależnie od jego źródła.
+    Możesz dodać jakiekolwiek pola do tego formularza, które będą widoczne dla wszystkich zgłoszeń. Będzie można używać tych pól do zaawansowanego wyszukiwania i filtrowania.
+  flags: 0
+  fields:
+    - 
+      id: 20
+      type: text #notrans
+      name: subject #notrans
+      label: Krótki Opis Problemu
+      sort: 1
+      flags: 0x77721
+      configuration:
+        size: 40
+        length: 50
+    - 
+      id: 21
+      type: thread #notrans
+      name: message #notrans
+      label: Szczegóły problemu
+      hint: Szczegóły dotyczące zgłoszenia.
+      sort: 2
+      flags: 0x75523
+    - 
+      id: 22
+      type: priority #notrans
+      name: priority #notrans
+      label: Priorytet
+      flags: 0x430B1
+      sort: 3
+- 
+  type: C #notrans
+  title: Dane Firmy
+  instructions: Szczegóły dostępne w szablonach wiadomości e-mail
+  flags: 0
+  fields:
+    - 
+      type: text #notrans
+      name: name #notrans
+      label: Nazwa Firmy
+      sort: 1
+      flags: 0x471A1
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: text #notrans
+      name: website #notrans
+      label: Strona internetowa
+      sort: 2
+      flags: 0x3101
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: phone #notrans
+      name: phone #notrans
+      label: Numer Telefonu
+      sort: 3
+      flags: 0x3101
+      configuration:
+        ext: false
+    - 
+      type: memo #notrans
+      name: adres
+      label: Adres
+      sort: 4
+      flags: 0x3101
+      configuration:
+        rows: 2
+        cols: 40
+        html: false
+        length: 100
+- 
+  type: O #notrans
+  title: O organizacji
+  instructions: Szczegóły dotyczące organizacji użytkownika
+  flags: 0
+  fields:
+    - 
+      type: text #notrans
+      name: name #notrans
+      label: Nazwa
+      sort: 1
+      flags: 0x777A3
+      configuration:
+        size: 40
+        length: 64
+    - 
+      type: memo
+      name: adres
+      label: Adres
+      sort: 2
+      flags: 0x3301
+      configuration:
+        rows: 2
+        cols: 40
+        length: 100
+        html: false
+    - 
+      type: phone
+      name: telefon
+      label: Telefon
+      sort: 3
+      flags: 0x3301
+    - 
+      type: text
+      name: website
+      label: Strona internetowa
+      sort: 4
+      flags: 0x3301
+      configuration:
+        size: 40
+        length: 0
+    - 
+      type: memo #notrans
+      name: notes
+      label: Wewnętrzne Notatki
+      sort: 5
+      flags: 0x3001
+      configuration:
+        rows: 4
+        cols: 40
+- 
+  type: A #notrans
+  title: Szczegóły Zadania
+  instructions: Opisz swój problem
+  notes: |
+    Ten formularz jest używany do stworzenia zadania.
+  flags: 0
+  fields:
+    - 
+      type: text #notrans
+      name: title #notrans
+      flags: 0x470A1
+      sort: 1
+      label: Tytuł
+      configuration:
+        size: 40
+        length: 50
+    - 
+      type: thread #notrans
+      name: description #notrans
+      flags: 0x450F3
+      sort: 2
+      label: Opis
+      hint: Szczegóły dotyczące powodu utworzenia zadania.

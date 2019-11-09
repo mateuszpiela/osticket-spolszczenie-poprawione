@@ -1,0 +1,45 @@
+---
+ticket_activity:
+  title: Aktywność zgłoszeń
+  content: >
+    Wybierz przedział czasowy dla wykresu i tabeli znajdującej się poniżej (patrz <span class="doc-desc-title">Statystyki</span>), aby zdefiniować żądany zakres czasowy. Domyślnie wykres odzwierciedla przegląd całego systemu (od założenia). Używając tabeli <span class="doc-desc-title">Statystyki</span> można zawęzić interesujący nas obszar (np. Dział, Tematy lub pracownik). Dodatkowo, można wyeksportować dane aktualnie wyświetlane w tabeli <span class="doc-desc-title">Statystyki </span> .
+report_timeframe:
+  title: Raport za okres
+  content: >
+    Wybierz datę początkową za pomocą kalendarza. Następnie wybierz okres czasu od tej daty, aby wyznaczyć datę końcową zbioru danych.
+statistics:
+  title: Statystyki
+  content: >
+    Przejdź do przedmiotu twojego zainteresowania klikając odpowiednią kartę, aby wyświetlić konkretne próbki danych. W tabeli, koła odpowiadają wielkością nominalnym danych. W związku z tym, im większa liczba w określonej komórce, tym większe będzie obok koło.
+opened:
+  title: Otwarte
+  content: >
+    Tickets that were originally opened having the Department or Help Topic on the ticket, or the number of tickets an Agent has opened on behalf of a User.
+assigned:
+  title: Przypisane
+  content: >
+    Tickets that have been assigned to either an Agent or a Team. The number reflects tickets that are manually assigned to agents or teams, claimed tickets, and tickets assigned from ticket filters/other auto-assignment rules.
+overdue:
+  title: Przedawnione
+  content: >
+    Tickets that have been marked ‘Overdue’ by the system. Tickets are marked Overdue when they have violated the SLA Plan to which they belonged, causing them to have a status of ‘Open’ past their Due Date.
+closed:
+  title: Zamknięte
+  content: >
+    The number of Tickets that are currently in the Closed status.
+reopened:
+  title: Ponownie otwarte
+  content: >
+    The total number of times a ticket was Reopened. Tickets are reopened whenever their status is changed from Closed to Open.
+deleted:
+  title: Usunięte
+  content: >
+    The amount of tickets that have been deleted.
+service_time:
+  title: Czas obsługi
+  content: >
+    Refers to the duration of time that begins at the opening of a ticket and ends when the ticket is closed. The Service Time column measures the average Service Time per ticket, in hours.
+response_time:
+  title: Czas reakcji
+  content: >
+    Shows an average response time by an Agent, in hours, to ticket correspondence.

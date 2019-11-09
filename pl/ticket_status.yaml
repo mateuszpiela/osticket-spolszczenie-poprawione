@@ -1,0 +1,54 @@
+---
+- 
+  id: 1
+  name: Otwarte
+  state: otwarte
+  mode: 3
+  sort: 1
+  flags: 0
+  properties:
+    description: Otwarte zgłoszenia.
+- 
+  id: 2
+  name: Rozwiązane
+  state: zamknięte
+  mode: 1
+  sort: 2
+  flags: 0
+  properties:
+    allowreopen: true
+    reopenstatus: 0
+    description: >
+      Zgłoszenia rozwiązane
+- 
+  id: 3
+  name: Zamknięte
+  state: zamknięte
+  mode: 3
+  sort: 3
+  flags: 0
+  properties:
+    allowreopen: true
+    reopenstatus: 0
+    description: >
+      Zamknięte zgłoszenia. Zgłoszenia będą nadal dostępne na panelach klienta i załogi.
+- 
+  id: 4
+  name: Zarchiwizowane
+  state: zarchiwizowane
+  mode: 3
+  sort: 4
+  flags: 0
+  properties:
+    description: >
+      Zgłoszenia dostępne jedynie w trybie administracyjnym, niedostępne w kolejce zgłoszeń oraz w panelu klienta.
+- 
+  id: 5
+  name: Usunięte
+  state: usunięte
+  mode: 3
+  sort: 5
+  flags: 0
+  properties:
+    description: >
+      Zgłoszenia przeznaczone do usunięcia.  Niedostępne w kolejce zgłoszeń.

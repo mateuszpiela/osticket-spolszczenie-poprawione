@@ -1,0 +1,10 @@
+---
+org_sharing:
+  title: Współdzielenie zgłoszeń
+  content: >
+    <p>Udostępnianie zgłoszeń dla organizacji pozwala jej członkom na dostęp do zgłoszeń innych członków organizacji.</p><p class="info-banner"><i class="icon-info-sign"></i>Współuczestnicy zawsze mają dostęp do zgłoszeń.</p>
+email_domain:
+  title: Domena z adresu e-mail
+  content: >
+    Użytkownicy mogą automatycznie być dodawani do organizacji na domeny z adresu e-mail. Użyj pola poniżej aby podać jedne bądź wiele domen oddzielnych przecinkami. Na przykład wpisz <code>mojadomena.pl</code> dla użytkowników z adresem e-mail kończącym się na @mojadomena.pl
+

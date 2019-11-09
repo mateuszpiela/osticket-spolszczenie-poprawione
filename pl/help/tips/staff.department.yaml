@@ -1,0 +1,77 @@
+---
+status:
+  title: Status
+  content: >
+    If disabled or archived, this <span class="doc-desc-title">Department</span> will not be available.
+type:
+  title: Typ
+  content: >
+    Wybierz <span class="doc-desc-opt">Prywatne</span>, jeżeli chcesz ukryć przydział tego Departamentu na Portalu Klienta.  Dodatkowo, jeżeli oznaczysz jako <span class="doc-desc-opt">Prywatny</span>, <span class="doc-desc-title">Podpis Departamentu</span> nie będzie on wyświetlany w odpowiedziach na e-mail. <br/><br/> Co najmniej jeden Departament musi być <span class="doc-desc-opt">Publiczny</span>
+email:
+  title: Email
+  content: >
+    Adresy e-mail użyte przy wysyłce odpowiedzi, gdy przedstawiciel doda odpowiedź do zgłoszenia.
+template:
+  title: Zestaw szablonów
+  content: >
+    Adresy e-mail <span class="doc-desc-title">Zestaw szablonów</span> użytych w automatycznej odpowiedzi oraz Alertach i Powiadomieniach dla zgłoszeń kierowanych do tego Departamentu.
+  links:
+    - 
+      title: Zarządzanie szablonami
+      href: /scp/templates.php
+sla:
+  title: SLA
+  content: >
+    Gwarantowany poziom świadczenia usług dla zgłoszeń kierowanych do tego Departamentu.
+  links:
+    - 
+      title: Zarządzanie Planami SLA
+      href: /scp/slas.php
+manager:
+  title: Kierownik departamentu
+  content: >
+    Wybierz <span class="doc-desc-title">Menadżera</span> dla tego Departamentu. <br/><br/> Menadżerowie mogą otrzymywać specjalne powiadomienia oraz mogą cofnąć przydział zgłoszenia.
+  links:
+    - 
+      title: Zarządzaj Alertami i Powiadomieniami
+      href: /scp/settings.php?t=alerts
+group_membership:
+  title: Odbiorcy Alertów i Powiadomień
+  content: >
+    Zaznacz odbiorców dla skonfigurowanych <span class="doc-desc-title">Alertów i Powiadomień</span>.
+  links:
+    - 
+      title: Konfiguracja Alertów i Powiadomień
+      href: "/scp/settings.php?t=tickets#alerts"
+sandboxing:
+  title: Ograniczenia przypisania zgłoszeń
+  content: >
+    Determine if Tickets can be assigned to all agents, agents with Primary or Extended Department access, or only agents with Primary Department access.
+disable_auto_claim:
+  title: Wyłącz automatyczne przejmowanie
+  content: >
+    Zaznacz aby <strong>wyłączyć</strong> automatyczne przejmowanie przy odpowiedzi dla tego departamentu.<br><br>Przedstawiciele wciąż mogą przejmować nieprzypisane zgłoszenia
+auto_response_settings:
+  title: Ustawienia autorespondera
+  content: >
+    Pozwala na nadpisanie globalnych ustawień automatycznej odpowiedzi dla tego Departamentu.
+new_ticket:
+  title: Nowa auto-odpowiedź
+  content: >
+    Możesz wyłączyć automatyczną odpowiedź wysyłaną do Użytkownika, gdy tworzone jest nowe zgłoszenie i kierowane jest do tego Departamentu.
+new_message:
+  title: Nowa wiadomość automatycznej odpowiedzi
+  content: >
+    Możesz wyłączyć automatyczną odpowiedź wysyłaną do Użytkownika, potwierdzającą opublikowanie wiadomości dla zgłoszenia w tym Departamencie.
+auto_response_email:
+  title: Automatyczne odpowiedzi E-mail
+  content: >
+    Wybierz adres e-mail, z którego automatyczne odpowiedzi będą wysyłane do tego Departamentu.
+department_access:
+  title: Dostęp dla grupy
+  content: >
+    Umożliwienie przedstawicielom innych Departamentów dostępu do zgłoszeń tego Departamentu.
+department_signature:
+  title: Podpis w departamencie
+  content: >
+    Podpis jest dostępny do wyboru, dla <span class="doc-desc-opt">Publicznych</span> Departamentów, przy odpowiedziach przedstawicieli.

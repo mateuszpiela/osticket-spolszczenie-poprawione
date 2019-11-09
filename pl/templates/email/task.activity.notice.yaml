@@ -1,0 +1,23 @@
+---
+#Email template: task.activity.notice.yaml
+#Notice sent to collaborators on task activity e.g reply or message
+#---
+notes: |
+  Powiadomienia wysyłane do współuczestników przy zdarzeniach dotyczących zadania, np. odpowiedź lub wiadomość.
+subject: |
+  Odp:%{task.title} [#%{task.number}]
+body: |
+  <h3><strong>Drogi %{recipient.name.first},</strong></h3>
+  <div>
+  <em>%{poster.name}</em> właśnie dodano wiadomość do zadania, w którym uczestniczysz.
+  </div>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
+  <em>Otrzymujesz tego maila, ponieważ jesteś uczestnikiem zadania
+  #%{task.number}. Aby wziąć udział, wystarczy odpowiedzieć na tę wiadomość.</em>
+  </div> #%{task.number}. To participate, simply reply to this email.</em>
+</div>

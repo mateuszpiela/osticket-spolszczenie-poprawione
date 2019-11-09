@@ -1,0 +1,28 @@
+---
+#Email template: task.overdue.alert.yaml
+#Sent to agents when a tasks transitions to overdue in the system.
+#Overdue tasks occur based on set due-date.
+#---
+notes: |
+  Wysyłane do przedstawicieli, gdy zadanie zbliża się to końca terminu wykonania.
+  Przeterminowanie zadań bazuje na ustawionej dacie wykonania.
+subject: |
+  Alert przeterminowanych zadań
+body: |
+  <h3><strong>Witaj %{recipient.name}</strong>,</h3>
+  Zadanie, <a href="%{task.staff_link}">#%{task.number}</a> jest poważnie przeterminowane.
+  <br>
+  <br>
+  Powinniśmy dołożyć wszelkich starań, aby wszystkie zadania były rozwiązywane możliwie szybko i profesjonalnie.
+  <br>
+  <br>
+  Podpisano,<br>
+  %{task.dept.manager.name}
+  <hr>
+  <div>Aby wyświetlić lub uzupełnić zadanie, proszę <a
+  href="%{task.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >zalogować się</span></a> do systemu obsługi zgłoszeń. Otrzymujesz to powiadomienie, ponieważ to zadanie jest przypisane bezpośrednio do Ciebie, zespołu lub departamentu, którego jesteś członkiem.</div>
+  <em style="font-size: small">Twój przyjazny<span style="font-size: smaller"
+  >(jednakże z ograniczoną cierpliwością)</span> System Obsługi Klienta</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" height="19"
+  alt="Powered by osTicket" width="126" style="width: 126px;">

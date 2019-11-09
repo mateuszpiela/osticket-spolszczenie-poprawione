@@ -1,0 +1,33 @@
+---
+- 
+  id: 1
+  role_id: 1
+  flags: 1
+  name: Poskramiacze lwów
+  notes: Właściciele systemu. Ludzie, którzy mają (początkowo) pełną kontrolę nad wszystkimi działami do których mają dostęp.
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 2
+  role_id: 2
+  flags: 1
+  name: Słoń pieszych
+  notes: |
+    Wysoko postawione osoby niezwiązane bezpośrednio z pracą na Zespołów Wsparcia
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 3
+  role_id: 2
+  flags: 1
+  name: Łapacze pcheł
+  notes: |
+    Pracownicy niższego szczebla
+  depts:
+    - 1
+    - 2
+    - 3
